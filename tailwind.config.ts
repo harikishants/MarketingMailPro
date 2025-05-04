@@ -61,6 +61,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        success: {
+          DEFAULT: "#10b981", // Green color for success
+          10: "rgba(16, 185, 129, 0.1)", // Light green for background
+        },
+        warning: {
+          DEFAULT: "#f59e0b", // Yellow color for warning
+          10: "rgba(245, 158, 11, 0.1)", // Light yellow for background
+        },
+        error: {
+          DEFAULT: "#ef4444", // Red color for error
+          10: "rgba(239, 68, 68, 0.1)", // Light red for background
+        },
       },
       keyframes: {
         "accordion-down": {

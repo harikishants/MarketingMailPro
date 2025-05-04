@@ -29,7 +29,7 @@ const NavLink = ({ href, icon, label, isActive }: NavLinkProps) => {
           className={cn(
             "flex items-center px-4 py-3 font-medium hover:bg-neutral-50",
             isActive
-              ? "text-primary bg-primary bg-opacity-10"
+              ? "text-primary bg-white"
               : "text-neutral-600"
           )}
         >

@@ -92,7 +92,7 @@ const Templates = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {templates.map((template: Template) => (
             <Card key={template.id} className="overflow-hidden">
-              <div className="h-40 bg-primary bg-opacity-10 flex items-center justify-center relative">
+              <div className="h-40 bg-white bg-opacity-10 flex items-center justify-center relative">
                 <Mail className="h-16 w-16 text-primary opacity-30" />
                 <div className="absolute top-3 right-3">
                   <DropdownMenu>

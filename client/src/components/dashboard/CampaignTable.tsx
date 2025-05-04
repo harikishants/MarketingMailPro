@@ -73,7 +73,7 @@ const CampaignTable = ({ campaigns }: CampaignTableProps) => {
                   <TableRow key={campaign.id}>
                     <TableCell className="px-6 py-4 whitespace-nowrap">
                       <div className="flex items-center">
-                        <div className="w-8 h-8 rounded-full bg-primary bg-opacity-10 flex items-center justify-center mr-3">
+                        <div className="w-8 h-8 rounded-full bg-white bg-opacity-10 flex items-center justify-center mr-3">
                           <Mail className="h-4 w-4 text-primary" />
                         </div>
                         <div>

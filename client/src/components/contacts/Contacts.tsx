@@ -196,7 +196,7 @@ const Contacts = () => {
                           <Badge 
                             key={list.id} 
                             variant="outline"
-                            className="px-2 py-0.5 text-xs bg-primary bg-opacity-10 text-primary rounded"
+                            className="px-2 py-0.5 text-xs bg-white bg-opacity-10 text-primary rounded"
                           >
                             {list.name}
                           </Badge>

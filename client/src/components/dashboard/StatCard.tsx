@@ -79,7 +79,7 @@ const StatCard = ({ title, value, change, icon }: StatCardProps) => {
             {isPositive ? "+" : "-"}{formattedChange}% from last month
           </p>
         </div>
-        <div className="w-10 h-10 rounded-full bg-primary bg-opacity-10 flex items-center justify-center">
+        <div className="w-10 h-10 rounded-full bg-white bg-opacity-10 flex items-center justify-center">
           {getIconComponent(icon)}
         </div>
       </div>
